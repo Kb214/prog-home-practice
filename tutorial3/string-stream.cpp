@@ -3,7 +3,7 @@
 #include <string>
 
 int main(){
-    std::string data = "Jhon 25 3.14";
+    std::string data = "";
     std::stringstream ss(data);
 
     std::string name;
