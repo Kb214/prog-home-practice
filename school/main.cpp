@@ -34,8 +34,9 @@ int main(){
         std::cout << "Found: " << dictionary["hello"] << "\n";
     }else{
         std::cout << "Not Found\n";
-    
+    }
     std::map<int, std::string> reversePhoneLookup;
+    
     //key [] then value ""
     
     reversePhoneLookup[1234567890] = "John Doe";
@@ -55,10 +56,12 @@ int main(){
     s.insert(3);
     s.insert(1);
     s.insert(4);
+    s.insert(7);
 
     for(auto i : s){
         std::cout << i << "\n";
     }
 
     return 0;
-}
+
+} 
