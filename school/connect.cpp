@@ -12,11 +12,19 @@
 //42 blanks, need to store yellow, red, or blank 
 //row = int vector
 //6 rows, 7 columns
+
 std::vector<std::vector<int>> board(6, std::vector<int>(7,0));
 //a makeboard function that uses ^ as a data type
+
+
+enum class Piece {EMPTY, RED, YELLOW};
+
 std::vector<std::vector<int>> makeBoard(int rows, int cols){
+
     return std::vector<std::vector<int>>(rows, std::vector<int>(cols,0));
+
 }
+
 
 void displayBoard(const std::vector<std::vector<int>>& board){
 
@@ -28,6 +36,7 @@ void displayBoard(const std::vector<std::vector<int>>& board){
         std::cout << "\n";
     }
 }
+
 
 int main(){
 
