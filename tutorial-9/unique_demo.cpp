@@ -30,7 +30,7 @@ int main(){
     // Rectangle* raw = new Rectangle(4, 3);
     // std::unique_ptr<Rectangle> badPtr(raw); // BAD!
 
-    auto goodPtr = std::make_unique<Rectangle>(4, 3);
+    auto goodPtr = std::make_unique<Rectangle>(4, 3); 
     std::cout << "\n";
 
     createRectangle(rect2);
